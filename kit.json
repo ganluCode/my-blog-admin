@@ -1,0 +1,57 @@
+{
+	"name":"我的项目-pig-ui",
+	"space":"lengleng",
+	"service":{
+		"pig-ui":{
+			"version":"3.8.0.2",
+			"variables":[
+				{
+					"name":"projectName",
+					"inputType":"input",
+					"value":"My-Blog-Admin"
+				},
+				{
+					"name":"isMicro",
+					"inputType":"radio",
+					"value":"false"
+				},
+				{
+					"name":"globalTitle",
+					"inputType":"input",
+					"value":"博客管理系统"
+				},
+				{
+					"name":"globalViceTitle",
+					"inputType":"input",
+					"value":"My Blog Admin"
+				},
+				{
+					"name":"globalViceTitleMsg",
+					"inputType":"input",
+					"value":"专注、免费、开源、维护、解疑"
+				},
+				{
+					"name":"footerAuthor",
+					"inputType":"input",
+					"value":"©2025 geekslife.cn"
+				},
+				{
+					"name":"wartermarkText",
+					"inputType":"input",
+					"value":"Geekslife"
+				},
+				{
+					"name":"lowerProjectName",
+					"inputType":"input",
+					"value":"${projectName?lower_case}"
+				},
+				{
+					"name":"_plugins",
+					"inputType":"_plugins",
+					"value":[]
+				}
+			]
+		}
+	},
+	"plugins":{}
+}
